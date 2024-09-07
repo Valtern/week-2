@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.polinemalogo img {
+    width: 100px;
+}
+
+.container-satu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h2, h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.sidebar-satu, .sidebar-dua {
+    width: 180px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.imglogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imglogo img {
+    width: 100px;
+    height: auto;
+}
+
+.sidebar-satu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar-satu ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-satu ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sidebar-satu ul li a:hover {
+    color: #0056b3;
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+}
+
+h2 {
+    font-size: 28px;
+    color: #222;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .container-satu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .sidebar-satu, .sidebar-dua {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container1 {
+        padding: 10px;
+    }
+}
